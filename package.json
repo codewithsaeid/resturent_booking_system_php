@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx tailwindcss-cli@latest build ./assets/css/styles.main.css -o ./assets/css/styles.css",
+    "prod" : "NODE_ENV=production npx tailwindcss-cli@latest build ./assets/css/styles.main.css -o ./assets/css/styles.css"
   },
   "keywords": [],
   "author": "",
