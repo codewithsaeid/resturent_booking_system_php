@@ -11,17 +11,27 @@
 
 <body>
 
-<div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4">
-  <div class="flex-shrink-0">
-    <img class="h-12 w-12" src="/img/logo.svg" alt="ChitChat Logo">
-  </div>
-  <div>
-    <div class="text-xl font-medium text-black">ChitChat</div>
-    <p class="text-gray-500">You have a new message!</p>
-  </div>
-</div>
+    <nav class="bg-gray-800">
+        <div class="h-16">
+            <div class="container mx-auto items-center justify-between">
+                <div class="logo">
+                    <img src="./assets/images/logo.png" alt="">
+                </div>
+                <div class="menu-item">
+                    <div class="text-white flex justify-center">
+                        <a href="#" class="px-3 py-2 rounded">Home</a>
+                        <a href="#">About</a>
+                        <a href="#">Blog</a>
+                    </div>
+                </div>
+                <div class="button-area">
+                    <div class="login-button">Login</div>
+                </div>
+            </div>
 
+        </div>
 
+    </nav>
 </body>
 
 </html>
